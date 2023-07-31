@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 62.5%
+    }
+
+    html body {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #1e1d2b;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    body main .navbar {
+        background-color: #1e1d2b;
+        padding: 1vw 3vw 0vw;
+        position: sticky;
+        top: 0rem;
+        width: 100%;
+    }
+
+    html body main .navbar .navbar-brand {
+        color: #ff702a;
+        font-size: 3vw;
+        padding: 0.5vw;
+    }
+
+    body main .navbar .collapse .navbar-nav {
+        display: flex;
+        position: relative;
+        bottom: 0.5rem;
+    }
+
+    body main .navbar .collapse .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        font-size: 2vw;
+        margin-left: 5vw;
+    }
+
+    body main .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+        border-bottom: solid 0.2vw #ff702a;
+        padding-bottom: 0%;
+    }
+
+    body main .home {
+        display: flex;
+        justify-content: center;
+        padding: 8vw 2vw 0vw;
+    }
+
+    body main .home .text {
+        margin: auto;
+    }
+
+    body main .home .text .title {
+        color: #ff702a;
+        font-size: 7vw;
+        margin: auto;
+    }
+
+    body main .home .text .text1 {
+        color: #fff;
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    body main .home .text a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 0.5vw 1.2vw;
+        font-size: 1.7vw;
+    }
+
+    body main .home .text a:hover {
+        padding: 0.3vw 1vw;
+        border: solid 0.2vw #fff;
+    }
+
+    body main .home img {
+        width: 35vw;
+        height: 35vw;
+        margin: auto;
+    }
+
+    body main .about {
+        display: flex;
+        justify-content: center;
+        padding: 8vw 2vw 0vw;
+    }
+
+    body main .about img {
+        width: 35vw;
+        height: 35vw;
+        margin: auto;
+    }
+
+    body main .about .text {
+        margin: auto;
+    }
+
+    body main .about .text .title {
+        color: #ff702a;
+        font-size: 1.8vw;
+        margin: auto;
+    }
+
+    body main .about .text .text1 {
+        color: #fff;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    body main .about .text .text2 {
+        color: #fff;
+        font-size: 1.7vw;
+        margin-bottom: 2vw;
+    }
+
+    body main .about .text a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 0.5vw 2vw;
+        font-size: 1.6vw;
+    }
+
+    body main .about .text a:hover {
+        padding: 0.3vw 1.8vw;
+        border: solid 0.2vw #fff;
+    }
+
+    body main .menu {
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding: 8vw 2vw 0vw;
+    }
+
+    body main .menu .text {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        margin: auto;
+    }
+
+    body main .menu .text .title {
+        color: #ff702a;
+        font-size: 1.8vw;
+        margin: auto;
+    }
+
+    body main .menu .text .text1 {
+        color: #fff;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs {
+        display: flex;
+    }
+
+    body main .menu .imgs .bg {
+        background-color: #ffefe8;
+        text-decoration: none;
+        margin: 2.3vw 1vw 0vw;
+        padding: 1vw 4.7vw;
+    }
+
+    body main .menu .imgs .bg:hover {
+        padding: 0.8vw 4.5vw;
+        border: solid 0.2vw #ff702a;
+    }
+
+    body main .menu .imgs .bg img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    body main .menu .imgs .bg .text {
+        place-items: center;
+    }
+
+    body main .menu .imgs .bg .text .food {
+        color: #1e1d2b;
+        font-size: 1.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs .bg .text .tasty {
+        color: #1e1d2b;
+        font-size: 1.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs .bg .text .price {
+        color: #ff702a;
+        font-size: 1.5vw;
+        margin: auto;
+    }
+
+    body main .services {
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding: 8vw 2vw 0vw;
+    }
+
+    body main .services .text {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    body main .services .text .title {
+        color: #ff702a;
+        font-size: 1.8vw;
+        margin: auto;
+    }
+
+    body main .services .text .text1 {
+        color: #fff;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    body main .services .imgs {
+        display: flex;
+    }
+
+    body main .services .imgs .bg {
+        margin: 0vw 1vw 0vw;
+        padding: 1vw 4.7vw;
+    }
+
+    body main .services .imgs .bg img {
+        width: 20vw;
+        height: 20vw;
+        place-items: center;
+        margin: auto;
+    }
+
+    body main .services .imgs .bg .text .service {
+        color: #ff702a;
+        font-size: 1.5vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .services .imgs .bg .text .text1 {
+        color: #fff;
+        font-size: 1.3vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .quality {
+        text-align: center;
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding: 8vw 2vw 0vw;
+    }
+
+    body main .quality .bg {
+        background-color: #ffefe8;
+        padding: 6vw 21vw;
+    }
+
+    body main .quality .bg p {
+        color: #1e1d2b;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    body main .quality .bg a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 1vw 3vw;
+        font-size: 2vw;
+    }
+
+    body main .quality .bg a:hover {
+        padding: 0.8vw 2.8vw;
+        border: solid 0.2vw #1e1d2b;
+    }
+
+    body main .contact {
+        display: flex;
+        justify-content: space-between;
+        padding: 8vw 18vw 2vw;
+    }
+
+    body main .contact .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body main .contact .col p {
+        color: #fff;
+        font-size: 1.5vw;
+        border-bottom: solid #ff702a 0.2vw;
+    }
+
+    body main .contact .col a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1vw;
+        margin: 0.2vw 4vw 0vw 0vw;
+    }
+
+    body main .contact .col a:hover {
+        color: #ff702a;
+    }
+
+    body main .contact .col {
+        color: #ff702a;
+        font-size: 1.5vw;
+    }
+
+    body main .contact .col1 p {
+        color: #fff;
+        font-size: 1.5vw;
+        margin-bottom: 2vw;
+        border-bottom: solid #ff702a 0.2vw;
+    }
+
+    body main .contact .col1 .redes .bx {
+        background-color: #ff702a;
+        color: #fff;
+        border-radius: 100%;
+        padding: 0.7vw;
+        text-decoration: none;
+    }
+
+    body main .contact .col1 .redes .bx:hover {
+        border: solid #ffefe8 0.2vw;
+        padding: 0.55vw;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    html {
+        font-size: 62.5px;
+    }
+
+    html body {
+        font-size: 16%;
+        font-family: 'Poppins', sans-serif;
+        background-color: #1e1d2b;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    body main .navbar {
+        padding: 0vw 0vw 0vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0vw;
+        width: 100%;
+        background-color: #1e1d2b;
+    }
+
+    body main .navbar .container-fluid {
+        padding: 0vw 0vw;
+    }
+
+    body main .navbar .navbar-brand {
+        color: #ff702a;
+        font-size: 6vw;
+        margin: 0;
+    }
+
+    body main .navbar .navbar-toggler {
+        font-size: 6vw;
+        color: #fff;
+        padding: 1vw 1vw;
+        box-shadow: none;
+    }
+
+    body main .navbar .navbar-toggler:hover {
+        color: #ff702a;
+    }
+
+    body main .navbar .navbar-nav {
+        background-color: #2c2b47;
+        width: 100vw;
+        place-items: center;
+    }
+
+    body main .navbar .navbar-nav {
+        font-size: 5vw;
+    }
+
+    body main .navbar .navbar-nav .nav-item a {
+        padding: 0vw 39vw;
+        
+    }
+
+    body main .home {
+        display: flex;
+        flex-direction: column;
+        padding-top: 18vw;
+    }
+
+    body main .home .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .home .text .title {
+        color: #ff702a;
+        font-size: 10vw;
+        margin: auto;
+    }
+
+    body main .home .text .text1 {
+        color: #fff;
+        font-size: 5.5vw;
+        margin-bottom: 2vw;
+    }
+
+    body main .home .text a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 0.5vw 1.2vw;
+        font-size: 4.7vw;
+    }
+
+    body main .home .text a:hover {
+        padding: 0.3vw 1vw;
+        border: solid 0.2vw #fff;
+    }
+
+    body main .home img {
+        width: 45vw;
+        height: 45vw;
+        margin: 2vw auto 0vw;
+    }
+
+    body main .about {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 18vw;
+    }
+
+    body main .about img {
+        width: 45vw;
+        height: 45vw;
+        margin: 2vw auto 0vw;
+    }
+
+    body main .about .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .about .text .title {
+        color: #ff702a;
+        font-size: 4.8vw;
+        margin: auto;
+    }
+
+    body main .about .text .text1 {
+        color: #fff;
+        font-size: 7.5vw;
+        margin: auto;
+    }
+
+    body main .about .text .text2 {
+        color: #fff;
+        font-size: 4.7vw;
+        margin-bottom: 2vw;
+    }
+
+    body main .about .text a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 0.5vw 2vw;
+        font-size: 4.6vw;
+    }
+
+    body main .about .text a:hover {
+        padding: 0.3vw 1.8vw;
+        border: solid 0.2vw #fff;
+    }
+
+    body main .menu {
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding-top: 18vw;
+    }
+
+    body main .menu .text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    body main .menu .text .title {
+        color: #ff702a;
+        font-size: 4.8vw;
+        margin: auto;
+    }
+
+    body main .menu .text .text1 {
+        color: #fff;
+        font-size: 7.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body main .menu .imgs .bg {
+        background-color: #ffefe8;
+        text-decoration: none;
+        margin: 2.3vw 1vw 0vw;
+        padding: 1vw 10.7vw;
+    }
+
+    body main .menu .imgs .bg:hover {
+        padding: 0.6vw 10.3vw;
+        border: solid 0.4vw #ff702a;
+    }
+
+    body main .menu .imgs .bg img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    body main .menu .imgs .bg .text {
+        place-items: center;
+    }
+
+    body main .menu .imgs .bg .text .food {
+        color: #1e1d2b;
+        font-size: 4.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs .bg .text .tasty {
+        color: #1e1d2b;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    body main .menu .imgs .bg .text .price {
+        color: #ff702a;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    body main .services {
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding-top: 18vw;
+    }
+
+    body main .services .text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    body main .services .text .title {
+        color: #ff702a;
+        font-size: 4.8vw;
+        margin: auto;
+    }
+
+    body main .services .text .text1 {
+        color: #fff;
+        font-size: 6.5vw;
+        margin: auto;
+    }
+
+    body main .services .imgs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body main .services .imgs .bg {
+        margin: 0vw 1vw 0vw;
+        padding: 1vw 4.7vw;
+    }
+
+    body main .services .imgs .bg img {
+        width: 65vw;
+        height: 65vw;
+        place-items: center;
+        margin: auto;
+    }
+
+    body main .services .imgs .bg .text .service {
+        color: #ff702a;
+        font-size: 4.5vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .services .imgs .bg .text .text1 {
+        color: #fff;
+        font-size: 4.3vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    body main .quality {
+        text-align: center;
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        padding-top: 18vw;
+    }
+
+    body main .quality .bg {
+        background-color: #ffefe8;
+        padding: 3vw 9vw;
+    }
+
+    body main .quality .bg p {
+        color: #1e1d2b;
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    body main .quality .bg a {
+        text-decoration: none;
+        background-color: #ff702a;
+        color: #fff;
+        padding: 1vw 3vw;
+        font-size: 5vw;
+    }
+
+    body main .quality .bg a:hover {
+        padding: 0.8vw 2.8vw;
+        border: solid 0.2vw #1e1d2b;
+    }
+
+    body main .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 18vw 15vw 2vw;
+    }
+
+    body main .contact .col {
+        display: flex;
+        flex-direction: column;
+        margin: 3vw 0rem;
+    }
+
+    body main .contact .col p {
+        color: #fff;
+        font-size: 4.5vw;
+        margin-bottom: 2vw;
+        border-bottom: solid #ff702a 0.1vw;
+    }
+
+    body main .contact .col a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 4vw;
+        margin: 0vw 4vw 0vw 0vw;
+    }
+
+    body main .contact .col a:hover {
+        color: #ff702a;
+    }
+
+    body main .contact .col {
+        color: #ff702a;
+        font-size: 4.5vw;
+    }
+
+    body main .contact .col1 {
+        display: flex;
+        flex-direction: column;
+        margin: 3vw 0rem;
+    }
+
+    body main .contact .col1 p {
+        color: #fff;
+        text-align: center;
+        font-size: 4.5vw;
+        margin-bottom: 2vw;
+        border-bottom: solid #ff702a 0.1vw;
+    }
+
+    body main .contact .col1 .redes {
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw 10vw 0vw;
+
+    }
+
+    body main .contact .col1 .redes .bx {
+        background-color: #ff702a;
+        font-size: 7vw;
+        color: #fff;
+        border-radius: 100%;
+        padding: 1vw;
+        text-decoration: none;
+    }
+
+    body main .contact .col1 .redes .bx:hover {
+        border: solid #ffefe8 0.4vw;
+        padding: 0.6vw;
+    }
+}
